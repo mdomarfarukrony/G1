@@ -33,7 +33,7 @@ section {
 header,
 section,
 footer {
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 :root {
