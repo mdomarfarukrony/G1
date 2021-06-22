@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+	.counterSec {
+		height: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.counterSec {
+		height: auto;
+	}
+	.panel {
+		margin-top: 30px;
+	}
+	.footer .row div {
+		text-align: center;
+	}
+	ul.socailLIks.d-flex.my-0 {
+		width: 183px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 991px) {
+	ul.dropdown-menu.servicedrop,
+	ul.dropdown-menu.featuredrop {
+		display: none;
+		transition: all .5s !important;
+	}
+	.service:hover ul.dropdown-menu.servicedrop {
+		display: block;
+	}
+	.feature:hover ul.dropdown-menu.featuredrop {
+		display: block;
+	}
+	.aboutUs img {
+		margin-bottom: 40px;
+	}
+	.socailLIks {
+		float: none;
+	}
+}
