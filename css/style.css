@@ -89,6 +89,9 @@ footer {
 	z-index: 10;
 }
 
+.header{
+overflow-y:hidden}
+
 .header a.nav-link {
 	color: black !important;
 }
